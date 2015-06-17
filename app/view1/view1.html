@@ -1,0 +1,12 @@
+<p>This is the partial for view 1.</p>
+
+<table>
+<tr ng-repeat-start="t in tests">
+    <td>{{t.name}}</td>
+</tr>
+<tr ng-repeat-start="t2 in t.nestedElements">
+    <td>{{t2.name}}</td>
+</tr>
+<tr ng-if="false" ng-repeat-end></tr>
+<tr ng-if="false" ng-repeat-end></tr>
+</table>
